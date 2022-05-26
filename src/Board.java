@@ -8,5 +8,6 @@ public class Board extends JPanel {
 
     public Board() {
         this.setPreferredSize(SCREEN_SIZE);
+        this.setBackground(Color.BLACK);
     }
 }

@@ -7,7 +7,6 @@ public class Main {
         JFrame frame = new JFrame();
         frame.add(board);
         frame.setResizable(false);
-        frame.setBackground(Color.BLACK);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
