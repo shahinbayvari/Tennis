@@ -6,7 +6,7 @@ import javax.swing.*;
 public class Paddle extends Rectangle {
     int xVelocity;
 
-    public Paddle() {
+    public Paddle(int x, int y, int width, int height) {
 
     }
 

@@ -34,7 +34,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void newPaddle() {
-
+        paddle = new Paddle((GAME_WIDTH - PADDLE_WIDTH) / 2, GAME_HEIGHT, PADDLE_WIDTH, PADDLE_HEIGHT);
     }
 
     public void paint(Graphics g) {
