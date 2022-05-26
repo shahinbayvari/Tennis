@@ -8,7 +8,7 @@ public class GamePanel extends JPanel implements Runnable {
     static final int GAME_HEIGHT = 1000;
     static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT);
     static final int BALL_DIAMETER = 20;
-    static final int PADDLE_WIDTH = 100;
+    static final int PADDLE_WIDTH = 150;
     static final int PADDLE_HEIGHT = 25;
     Thread gameThread;
     Image image;
@@ -34,7 +34,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void newPaddle() {
-        paddle = new Paddle((GAME_WIDTH - PADDLE_WIDTH) / 2, GAME_HEIGHT, PADDLE_WIDTH, PADDLE_HEIGHT);
+        paddle = new Paddle((GAME_WIDTH - PADDLE_WIDTH) / 2, GAME_HEIGHT - PADDLE_HEIGHT, PADDLE_WIDTH, PADDLE_HEIGHT);
     }
 
     public void paint(Graphics g) {
@@ -45,7 +45,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void draw(Graphics g) {
-
+        paddle.draw(g);
     }
 
     public void move() {
