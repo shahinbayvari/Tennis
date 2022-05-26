@@ -50,6 +50,7 @@ public class GamePanel extends JPanel implements Runnable {
 
     public void move() {
         paddle.move();
+        ball.move();
     }
 
     public void checkCollision() {
