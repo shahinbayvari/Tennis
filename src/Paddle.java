@@ -11,11 +11,25 @@ public class Paddle extends Rectangle {
     }
 
     public void keyPressed(KeyEvent e) {
-
+        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            setXDirection(10);
+            move();
+        }
+        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
+            setXDirection(-10);
+            move();
+        }
     }
 
     public void keyReleased(KeyEvent e) {
-
+        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            setXDirection(0);
+            move();
+        }
+        if (e.getKeyCode() == KeyEvent.VK_LEFT) {
+            setXDirection(0);
+            move();
+        }
     }
 
     public void setXDirection(int xDirection) {

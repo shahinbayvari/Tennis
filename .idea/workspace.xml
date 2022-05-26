@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Finish GamePanel newPaddle">
+    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Finish GamePanel draw">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paddle.java" afterDir="false" />
     </list>
@@ -188,7 +189,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653594669030</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finish Paddle constructor">
+      <created>1653594714461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653594714461</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Finish Paddle draw">
+      <created>1653594784872</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653594784872</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Finish GamePanel draw">
+      <created>1653594938681</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653594938681</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +243,9 @@
     <MESSAGE value="Finish GamePanel paint" />
     <MESSAGE value="Finish GamePanel run" />
     <MESSAGE value="Finish GamePanel newPaddle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish GamePanel newPaddle" />
+    <MESSAGE value="Finish Paddle constructor" />
+    <MESSAGE value="Finish Paddle draw" />
+    <MESSAGE value="Finish GamePanel draw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish GamePanel draw" />
   </component>
 </project>
