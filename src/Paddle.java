@@ -33,11 +33,11 @@ public class Paddle extends Rectangle {
     }
 
     public void setXDirection(int xDirection) {
-        xVelocity = xDirection;0
+        xVelocity = xDirection;
     }
 
     public void move() {
-
+        x += xVelocity;
     }
 
     public void draw(Graphics g) {
