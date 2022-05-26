@@ -7,7 +7,7 @@ public class Paddle extends Rectangle {
     int xVelocity;
 
     public Paddle(int x, int y, int width, int height) {
-
+        super(x, y, width, height);
     }
 
     public void keyPressed(KeyEvent e) {
