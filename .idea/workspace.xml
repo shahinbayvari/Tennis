@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Just follow tutorial you ninkompoof">
-      <change afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TennisGame.java" afterDir="false" />
+    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Create empty methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paddle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653592247487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create classes">
+      <created>1653592552609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592552609</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create constructors">
+      <created>1653592637130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592637130</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +167,9 @@
     <MESSAGE value="Add paddle" />
     <MESSAGE value="Add BoardFrame" />
     <MESSAGE value="Just follow tutorial you ninkompoof" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just follow tutorial you ninkompoof" />
+    <MESSAGE value="Create classes" />
+    <MESSAGE value="Create constructors" />
+    <MESSAGE value="Create empty methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create empty methods" />
   </component>
 </project>
