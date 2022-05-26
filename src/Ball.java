@@ -8,7 +8,7 @@ public class Ball extends Rectangle {
     int xVelocity;
     int yVelocity;
 
-    public Ball() {
+    public Ball(int x, int y, int width, int height) {
 
     }
 
