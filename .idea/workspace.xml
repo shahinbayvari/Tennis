@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Paddle stops at window edges">
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
+    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="newBall()">
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653595412624</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="GamePanel move">
+      <created>1653595515923</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1653595515923</updated>
+    </task>
+    <task id="LOCAL-00026" summary="GamePanel move pt2">
+      <created>1653595549440</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653595549440</updated>
+    </task>
+    <task id="LOCAL-00027" summary="newBall()">
+      <created>1653595706432</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653595706432</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,9 +272,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Create main class" />
-    <MESSAGE value="Add frame" />
     <MESSAGE value="Add board" />
     <MESSAGE value="set board size" />
     <MESSAGE value="Set background color" />
@@ -276,6 +294,9 @@
     <MESSAGE value="Paddle setXDirection" />
     <MESSAGE value="Paddle move" />
     <MESSAGE value="Paddle stops at window edges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paddle stops at window edges" />
+    <MESSAGE value="GamePanel move" />
+    <MESSAGE value="GamePanel move pt2" />
+    <MESSAGE value="newBall()" />
+    <option name="LAST_COMMIT_MESSAGE" value="newBall()" />
   </component>
 </project>
