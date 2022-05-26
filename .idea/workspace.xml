@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="newBall()">
-      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
+    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Ball draw pt2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +258,35 @@
       <option name="project" value="LOCAL" />
       <updated>1653595706432</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Random velocity Ball">
+      <created>1653595934784</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653595934784</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ball velocity">
+      <created>1653595971492</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653595971492</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Ball draw">
+      <created>1653596016323</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653596016323</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Ball draw pt2">
+      <created>1653596055363</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653596055363</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,10 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add board" />
-    <MESSAGE value="set board size" />
-    <MESSAGE value="Set background color" />
-    <MESSAGE value="Add paddle" />
     <MESSAGE value="Add BoardFrame" />
     <MESSAGE value="Just follow tutorial you ninkompoof" />
     <MESSAGE value="Create classes" />
@@ -297,6 +322,10 @@
     <MESSAGE value="GamePanel move" />
     <MESSAGE value="GamePanel move pt2" />
     <MESSAGE value="newBall()" />
-    <option name="LAST_COMMIT_MESSAGE" value="newBall()" />
+    <MESSAGE value="Random velocity Ball" />
+    <MESSAGE value="ball velocity" />
+    <MESSAGE value="Ball draw" />
+    <MESSAGE value="Ball draw pt2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ball draw pt2" />
   </component>
 </project>

@@ -63,6 +63,17 @@ public class GamePanel extends JPanel implements Runnable {
         if (paddle.x >= GAME_WIDTH - PADDLE_WIDTH) {
             paddle.x = GAME_WIDTH - PADDLE_WIDTH;
         }
+
+        // bounce ball off edges
+        if (ball.x <= 0) {
+            ball.setXDirection(-ball.xVelocity);
+        }
+        if (ball.x >= GAME_WIDTH - BALL_DIAMETER) {
+            ball.setXDirection(-ball.xVelocity);
+        }
+        if (ball.y <= 0) {
+            ball.setYDirection(-ball.yVelocity);
+        }
     }
 
     public void run() {
