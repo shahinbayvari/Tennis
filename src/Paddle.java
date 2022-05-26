@@ -4,4 +4,7 @@ import java.util.*;
 import javax.swing.*;
 
 public class Paddle {
+    public Paddle() {
+
+    }
 }
