@@ -7,7 +7,7 @@ public class Board extends JPanel {
     private static final Dimension SCREEN_SIZE = new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT);
     private static final int PADDLE_WIDTH = 100;
     private static final int PADDLE_HEIGHT = 25;
-    public Paddle paddle;
+    private Paddle paddle;
 
     public Board() {
         newPaddle();
