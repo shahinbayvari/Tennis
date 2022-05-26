@@ -7,7 +7,7 @@ public class GamePanel extends JPanel implements Runnable {
     static final int GAME_WIDTH = 1000;
     static final int GAME_HEIGHT = 1000;
     static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT);
-    static final int BALL_DIAMETER = 20;
+    static final int BALL_DIAMETER = 50;
     static final int PADDLE_WIDTH = 150;
     static final int PADDLE_HEIGHT = 25;
     Thread gameThread;
@@ -74,6 +74,16 @@ public class GamePanel extends JPanel implements Runnable {
         if (ball.y <= 0) {
             ball.setYDirection(-ball.yVelocity);
         }
+
+        // bounce ball off paddle
+        if (ball.intersects(paddle)) {
+            ball.xVelocity = Math.abs(ball.xVelocity);
+            ball.xVelocity++;
+            ball.yVelocity = -ball.yVelocity;
+            ball.yVelocity--;
+        }
+        ball.setXDirection(ball.xVelocity);
+        ball.setYDirection(ball.yVelocity);
     }
 
     public void run() {

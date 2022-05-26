@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Ball draw pt2">
+    <list default="true" id="9aea7b86-09a0-4a6b-a8d0-3c58e1476e19" name="Changes" comment="Ball initial speed pt 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
@@ -286,7 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653596055363</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Ball bounces off left right top edges">
+      <created>1653596308449</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653596308449</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Ball initial speed">
+      <created>1653596361939</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653596361939</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Ball initial speed pt 2">
+      <created>1653596405953</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653596405953</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,9 +322,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add BoardFrame" />
-    <MESSAGE value="Just follow tutorial you ninkompoof" />
-    <MESSAGE value="Create classes" />
     <MESSAGE value="Create constructors" />
     <MESSAGE value="Create empty methods" />
     <MESSAGE value="Declare variables" />
@@ -326,6 +344,9 @@
     <MESSAGE value="ball velocity" />
     <MESSAGE value="Ball draw" />
     <MESSAGE value="Ball draw pt2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ball draw pt2" />
+    <MESSAGE value="Ball bounces off left right top edges" />
+    <MESSAGE value="Ball initial speed" />
+    <MESSAGE value="Ball initial speed pt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ball initial speed pt 2" />
   </component>
 </project>
